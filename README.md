@@ -1,54 +1,28 @@
 
 
 
-
-
-## Functionalities Part
-- Clicking on Interview button on the card 
-    - will add the data on Interview tab 
-    - add the status as Interview.
-    - Will increase the the count of interview in Dashboard 
-
-- Clicking on Rejected button on the card 
-    - will add the data on Rejected tab 
-    - add the status as Rejected.
-    - Will increase the the count of Rejected in Dashboard
-
-- Enable toggle between Interview and rejected button(you can select Rejected button after clicking on Interview, and Interview button after clicking on Rejected button). It will change the tab and dashboard count also. It will show tab wise jobs count on the right.
-
----
-
-# Challenges Requirements
-- Clicking on the delete button will remove that card from the UI, and the count will be deducted from the dashboard card and the main section.
-- No lorem ipsum text on your website. At least 8 meaningful commits in your project.  
-
-- Create a readme file and answer this question on your own. Don’t copy-paste from Google or any AI chatbot. 
-
-
 ## Answers to Questions
 
 ### 1. What is the difference between getElementById, getElementsByClassName, and querySelector / querySelectorAll?
 
+Answer:getElementById() is one of the most commonly used methods in JavaScript.It selects a single element based on its unique ID.
+Whereas getElementsByClassName() allows you to select elements by their class name.It selects multiple elements on a page that have same class name.It returns HTMLcollection.
+querySelector() and querySelectorAll() are modern methods for selecting elements using CSS selectors.querySelector() provides first matching element and querySelectorAll() provides all matching elements in the DOM as a NodeList.
+
+
 ### 2. How do you create and insert a new element into the DOM?
+
+Answer: I create a new element by using document.createElement() method and then I use element.append() for mixing text and elements also element.appendChild() for only DOM nodes to insert into the DOM.
 
 ### 3. What is Event Bubbling? And how does it work?
 
+Answer:Event Bubbling is a type of event propagation in the HTML DOM.It propagates on a nested element from child to its ancestors in the DOM tree. When an event happens on an element, it first runs the handlers on it, then on its parent, then all the way up on other ancestors.Let's say 3 elements like form,div,p in a nest first of all runs on p then div then form.
+
 ### 4. What is Event Delegation in JavaScript? Why is it useful?
+
+Answer:Event Delegation is a process in JavaScript for handling event efficiently.In this process there are many many advantages.For example, it improves performance,efficient coding,elements added automatically.
 
 ### 5. What is the difference between preventDefault() and stopPropagation() methods?
 
----
+Answer:preventDefault() Stops the browser's default action whereas  stopPropagation() Stops the event flow through the DOM tree. By using  preventDefault() we can continue event to bubble.On the other hand, stopPropagation() is used for stops event from reaching ancestors or descendents.
 
-
-**Technology Stack:**
-- HTML
-- CSS (Vanilla/Tailwind/DaisyUI)
-- JavaScript (Vanilla)
-
-
---- 
-
-## What to submit: 
-
-1. GitHub Repository Link: 
-2. Live Site Link: 
