@@ -50,7 +50,6 @@ const totalJob = document.getElementById("total-job-number");
 const interviewJob = document.getElementById("interview-job-number");
 const rejectedJob = document.getElementById("rejected-job-number");
 
-
 function updateJobs() {
   totalJob.innerText = allContainer.children.length;
   interviewJob.innerText = interviewContainer.children.length;
